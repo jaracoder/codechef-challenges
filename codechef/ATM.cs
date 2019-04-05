@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 
 namespace codechef
 {
@@ -16,7 +13,7 @@ namespace codechef
             int x = int.Parse(line[0]);
 
             // balance en cuenta
-            double y = double.Parse(line[1], System.Globalization.CultureInfo.InvariantCulture);
+            double y = double.Parse(line[1], CultureInfo.InvariantCulture);
             
             // comision
             double comision = 0.50f;
@@ -31,8 +28,6 @@ namespace codechef
             // muestra balance despues de retirar dinero
             double result = y - (x + comision);
             Console.WriteLine(result.ToString("f2"));
-
-            Console.ReadLine();
         }
     }
 }
