@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>FriendOrGirlfriend</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,7 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ATM.cs" />
+    <Compile Include="challenges\FriendOrGirlfriend.cs" />
+    <Compile Include="challenges\MaximumRemaining.cs" />
+    <Compile Include="practices\EnormousInputTest.cs" />
+    <Compile Include="practices\ATM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
