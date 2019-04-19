@@ -1,5 +1,6 @@
-﻿// jripoll.dev - 05/04/2019
+﻿// jripoll.dev - 19/04/2019
 // FriendOrGirfriend.cs
+// Problem Code: STRCH
 
 using System;
 
@@ -8,18 +9,20 @@ class FriendOrGirlfriend
     static void Main()
     {
         int t = int.Parse(Console.ReadLine());
-        
+        int i = 0;
+        int j = 0;
+
+        long total;
+        long sum, res;
+
         string[] line;
         string text;
+
         char letter;
         
-        int i = 0, j;
-        int total;
-        int sum, res;
-
         for (; i < t; i++)
         {
-            total = int.Parse(Console.ReadLine());
+            total = long.Parse(Console.ReadLine());
             line = Console.ReadLine().Split(' ');
             text = line[0];
             letter = char.Parse(line[1]);
