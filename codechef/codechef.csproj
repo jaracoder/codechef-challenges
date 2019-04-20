@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FriendOrGirlfriend</StartupObject>
+    <StartupObject>FLOW001</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="challenges\FriendOrGirlfriend.cs" />
     <Compile Include="challenges\MaximumRemaining.cs" />
+    <Compile Include="practices\AddTwoNumbers.cs" />
     <Compile Include="practices\EnormousInputTest.cs" />
     <Compile Include="practices\ATM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
