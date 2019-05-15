@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TLG</StartupObject>
+    <StartupObject>CIELRCPT</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="challenges\FriendOrGirlfriend.cs" />
     <Compile Include="challenges\MaximumRemaining.cs" />
+    <Compile Include="practice-beginner\CielReceipt.cs" />
     <Compile Include="practice-beginner\NumberMirror.cs" />
     <Compile Include="practice-beginner\FindRemainder.cs" />
     <Compile Include="practice-beginner\SumDigits.cs" />
