@@ -8,7 +8,7 @@ Repositorio de soluciones en `C#` para resolver desafíos de programación en Co
 
 ## Licencia
 
-Este proyecto está bajo la licencia de [GNU General Public License v3.0](https://github.com/jaracoder/ASP.NET.WebControl.Toolkit/blob/main/LICENSE.MD).
+Este proyecto está bajo la licencia de [GNU General Public License v3.0](https://github.com/jaracoder/CodeChef.Challenges/blob/master/LICENSE).
 
 ---
 Escrito con ❤️ por [jaracoder](https://github.com/jaracoder).
